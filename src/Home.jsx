@@ -13,8 +13,8 @@ const Home = () => {
         <div className="hero" data-aos="fade-up">
             <h1>Hi, I'm Valentyn Tokariuk</h1>
             <p>A Beginning Full Stack Developer, passionate about building functional and responsive web applications.</p>
-            <a href="/projects" className="cta-btn" data-aos="fade-right">View My Projects</a>
-            <a href="/contact" className="cta-btn" data-aos="fade-left">Contact Me</a>
+            <a href="/Projects" className="cta-btn" data-aos="fade-right">View My Projects</a>
+            <a href="/Contact" className="cta-btn" data-aos="fade-left">Contact Me</a>
         </div>
         <div className="skills" data-aos="fade-up">
           <h2>Technologies I Work With</h2>
