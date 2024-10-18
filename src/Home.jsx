@@ -100,8 +100,8 @@ const Home = () => {
                 customers and vendors data.
                 Got to experience and be a part of a lot of 
                 processes inside of the corporation. Worked with Microsoft Navision, Basware, SQL Server,
-                Microsoft Office. Quit the job when moved to Malta as an exchange student.</p>
-              <p className='right-align large-margin'><b>2024</b></p>
+                Microsoft Office. </p>
+              <p className='right-align large-margin'><b>2023</b></p>
               <p className='right-align'><i>Szczecin</i></p>
             </li>
             <li>
