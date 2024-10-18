@@ -10,7 +10,7 @@ import NetSketchImage2 from './assets/NetSketch2.png';
 import NetSketchImage3 from './assets/NetSketch4.png';
 import NetSketchProject from './assets/NetSketch.pdf';
 import LineFollowingProject from './assets/Line-Following.pdf';
-import robotImage from './assets/Robot.jpg';
+import robotImage from './assets/Robot.png';
 import robotPresentation from './assets/Presentation.key'; 
 import OrchectrationProject from './assets/OrchestrationReport.pdf';
 import orchImage from './assets/orch.png';
