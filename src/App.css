@@ -461,15 +461,18 @@ p {
   margin-bottom: 20px;
 }
 
+/* Project Card - Technologies & Buttons */
 .technologies {
   list-style-type: none;
   padding: 0;
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of technologies */
+  justify-content: center; /* Align items to the center */
+  gap: 10px; /* Space between items */
 }
 
 .technologies li {
-  display: inline;
-  margin-right: 10px;
   padding: 5px 10px;
   background-color: #333;
   color: white;
@@ -477,9 +480,16 @@ p {
   font-size: 0.9rem;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of buttons */
+  justify-content: center; /* Center align items */
+  gap: 15px; /* Space between buttons */
+  margin-top: 15px;
+}
+
 .project-links a {
   display: inline-block;
-  margin: 0 10px;
   color: #fb7d61;
   text-decoration: none;
   padding: 10px;
@@ -493,7 +503,7 @@ p {
   color: white;
 }
 
-/* Responsive Design */
+/* Responsive Design for Project Cards */
 @media (max-width: 768px) {
   .projects-container {
     flex-direction: column;
@@ -501,9 +511,16 @@ p {
   }
 
   .project-card {
-    width: 90%;
+    width: 90%; /* Make project cards almost full width on smaller screens */
+  }
+
+  .technologies,
+  .project-links {
+    justify-content: center; /* Center align items on small screens */
+    gap: 10px; /* Adjust spacing for smaller screens */
   }
 }
+
 /* Contact section styles */
 #contact {
   padding: 40px;

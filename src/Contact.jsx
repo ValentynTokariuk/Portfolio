@@ -25,7 +25,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+      .send('service_gmail_vt', 'template_gmail_vt', formData, '8MUenrVwaX6SNXpJn') // Use public key here
       .then(
         (result) => {
           console.log(result.text);
