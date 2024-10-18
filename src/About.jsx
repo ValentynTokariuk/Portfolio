@@ -3,9 +3,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css'; // Import the CSS for styling
 
-import photo1 from './assets/Me1.jpg'; // Replace with your own images
-import photo2 from './assets/Me2.jpg';
-import photo3 from './assets/Me3.jpg';
+import photo1 from './assets/Me1.png'; // Replace with your own images
+import photo2 from './assets/Me2.png';
+import photo3 from './assets/Me3.png';
 
 const About = () => {
   useEffect(() => {
