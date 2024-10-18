@@ -118,7 +118,7 @@ const Contact = () => {
         <div className="contact-button">
           <p>Connect with me on LinkedIn:</p>
           <a
-            href="https://www.linkedin.com/in/valentyn-tokariuk-445535237/"
+            href="https://www.linkedin.com/in/valentyntokariuk/"
             target="_blank"
             rel="noopener noreferrer"
             className="linkedin-btn"

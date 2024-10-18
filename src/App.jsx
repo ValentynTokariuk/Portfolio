@@ -72,7 +72,7 @@ const App = () => {
               <a href="https://github.com/ValentynTokariuk" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
-              <a href="https://www.linkedin.com/in/valentyn-tokariuk-445535237/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/valentyntokariuk/" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
               <a href="https://wa.me/35679060965" target="_blank" rel="noopener noreferrer">
