@@ -19,7 +19,7 @@ import orchImage2 from './assets/orch2.png';
 import orchImage3 from './assets/orch3.png';
 import netlify from './assets/netlify.png';
 import netlify1 from './assets/netlify1.png';
-import netlify2 from './assets/netlify3.png';
+import netlify2 from './assets/netlify2.png';
 import netlify4 from './assets/netlify4.png';
 
 
