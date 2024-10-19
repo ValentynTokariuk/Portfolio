@@ -19,7 +19,6 @@ import orchImage2 from './assets/orch2.png';
 import orchImage3 from './assets/orch3.png';
 import netlify from './assets/netlify.png';
 import netlify1 from './assets/netlify1.png';
-import netlify2 from './assets/netlify2.png';
 import netlify3 from './assets/netlify3.png';
 import netlify4 from './assets/netlify4.png';
 
@@ -73,7 +72,7 @@ const projects = [
         </p>
       </>
     ),
-    images: [netlify, netlify1, netlify3, netlify4, netlify5],
+    images: [netlify, netlify1, netlify2, netlify4],
     technologies: ['React', 'CSS', 'Netlify', 'React Router', 'AOS'],
     github: 'https://github.com/ValentynTokariuk/Portfolio',
     liveDemo: 'https://valentyntokariuk.netlify.app/', 
