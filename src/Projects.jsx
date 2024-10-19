@@ -17,9 +17,67 @@ import orchImage from './assets/orch.png';
 import orchImage1 from './assets/orch1.png';
 import orchImage2 from './assets/orch2.png';
 import orchImage3 from './assets/orch3.png';
+import netlify from './assets/netlify.png';
+import netlify1 from './assets/netlify1.png';
+import netlify2 from './assets/netlify2.png';
+import netlify3 from './assets/netlify3.png';
+import netlify4 from './assets/netlify4.png';
+
 
 
 const projects = [
+  {
+    title: 'Personal Portfolio Website Development and Deployment',
+    description: (
+      <>
+        <strong>Description:</strong>
+        <p>
+          This project is my personal portfolio website, designed to showcase my work, projects, and skills as a software developer. It was developed as my first front-end project and successfully deployed on Netlify, with the goal of presenting my professional experience, achievements, and projects in a visually appealing and organized way.
+        </p>
+  
+        <strong>Key Features:</strong>
+        <ul>
+          <li><strong>Multi-Page Website:</strong> Created a multi-page site featuring dedicated sections for an "About" page, "Projects" gallery, and "Contact" page, with consistent navigation and smooth transitions between pages.</li>
+          <li><strong>Responsive Design:</strong> Implemented a responsive layout using modern CSS techniques, ensuring the website looks great on all devices, from desktops to smartphones.</li>
+          <li><strong>Deployment to Netlify:</strong> Successfully deployed the website using Netlify, enabling live access and continuous deployment from the GitHub repository.</li>
+          <li><strong>Interactive Animations:</strong> Integrated AOS (Animate On Scroll) to bring animations and dynamic behavior to page elements for a more engaging user experience.</li>
+          <li><strong>Project Showcase:</strong> Featured project cards with expandable descriptions, technology tags, image galleries, and links to GitHub repositories for each project, providing visitors with detailed insights into each project.</li>
+        </ul>
+  
+        <strong>Technologies Used:</strong>
+        <ul>
+          <li><strong>React:</strong> Used React as the core library to build reusable UI components and manage state efficiently.</li>
+          <li><strong>CSS:</strong> Styled the website using custom CSS, with careful attention to typography, colors, and responsive elements to create a visually cohesive design.</li>
+          <li><strong>React Router:</strong> Utilized React Router for client-side routing, ensuring smooth navigation across different pages without reloading the website.</li>
+          <li><strong>Netlify:</strong> Leveraged Netlify for hosting and deploying the project, setting up a CI/CD pipeline to automatically publish changes pushed to GitHub.</li>
+          <li><strong>AOS (Animate On Scroll):</strong> Implemented animations triggered during scrolling to create an interactive experience.</li>
+        </ul>
+  
+        <strong>Challenges Overcome:</strong>
+        <ul>
+          <li><strong>Responsive Design Implementation:</strong> Developed a fully responsive layout using CSS media queries and flexible component design to ensure proper rendering on various devices and screen sizes.</li>
+          <li><strong>Client-Side Routing:</strong> Utilized React Router to manage routes within the application, overcoming challenges related to preserving scroll positions and ensuring seamless navigation.</li>
+          <li><strong>Continuous Deployment:</strong> Set up Netlify for automatic deployments from GitHub, addressing challenges like build failures and ensuring that assets load properly.</li>
+        </ul>
+  
+        <strong>Future Enhancements:</strong>
+        <ul>
+          <li><strong>Blog Integration:</strong> Plan to add a blogging section to share my thoughts on technology and software development.</li>
+          <li><strong>Enhanced Interactivity:</strong> Add more dynamic components and animations to improve the user experience and create a memorable website journey.</li>
+          <li><strong>Testing:</strong> Implement automated tests to verify UI functionality and ensure reliability during further feature additions.</li>
+        </ul>
+  
+        <strong>Project Impact:</strong>
+        <p>
+          This portfolio website serves as my first deployed front-end project, showcasing my learning journey in front-end development and deployment. It demonstrates my abilities in UI development, managing multi-page applications, and deploying applications with modern hosting solutions. This project also provides a central hub to share my projects with potential employers and collaborators.
+        </p>
+      </>
+    ),
+    images: [netlify, netlify1, netlify3, netlify4, netlify5],
+    technologies: ['React', 'CSS', 'Netlify', 'React Router', 'AOS'],
+    github: 'https://github.com/ValentynTokariuk/Portfolio',
+    liveDemo: 'https://valentyntokariuk.netlify.app/', 
+  },
   {
     title: 'Cloud-Native Application Deployment Using Docker and Kubernetes',
     description: (
