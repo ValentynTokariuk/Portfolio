@@ -277,6 +277,7 @@ const Projects = () => {
   const toggleShowMore = (index) => {
     setShowMoreIndex(showMoreIndex === index ? null : index); // Toggle expansion
   };
+  
 
   return (
     <section id="projects">
@@ -302,13 +303,14 @@ const Projects = () => {
             <div
               className="description-container"
               style={{
-                maxHeight: showMoreIndex === index ? '500px' : '60px', // Adjust the height on toggle
+                maxHeight: showMoreIndex === index ? '5000px' : '100px', // Adjust the height on toggle
                 overflow: 'hidden',
-                transition: 'max-height 0.5s ease',
+                transition: 'max-height 1s ease',
               }}
             >
               <p>{project.description}</p>
             </div>
+            
 
             <button className="read-more-btn" onClick={() => toggleShowMore(index)}>
               {showMoreIndex === index ? 'Show Less' : 'Read More'}

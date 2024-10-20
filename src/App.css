@@ -334,6 +334,13 @@ nav {
 .project-card:hover {
   transform: translateY(-10px);
 }
+.read-more-content {
+  max-height: none; /* Remove the height limit */
+  overflow: visible; /* Ensure content isn't hidden */
+  transition: none; /* Disable transitions that could collapse it */
+}
+
+
 .read-more-btn {
   background-color: #fb7d61;
   color: white;
@@ -350,11 +357,14 @@ nav {
   background-color: #6e0000;
 }
 
-/* Description container for smooth height transition */
+/* Updated Description container */
 .description-container {
-  overflow: hidden;
-  transition: height 0.5s ease; /* Smooth height transition */
+  overflow: visible; /* Make sure content overflow is visible */
+  height: auto; /* Let it expand to fit the content */
+  transition: all 1s ease; /* Smooth transition for expanding/collapsing */
 }
+
+
 
 /* Image container to maintain aspect ratio */
 .image-container {
