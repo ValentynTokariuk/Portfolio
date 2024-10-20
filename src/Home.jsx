@@ -20,11 +20,11 @@ const Home = () => {
         <div className="skills" data-aos="fade-up">
           <h2>Technologies I Work With</h2>
           <ul className="hard-skills">
-            <li><b>Frontend</b>: React, HTML5, CSS3</li>
-            <li><b>Backend</b>: Node.js, Python, Java</li>
+            <li><b>Frontend</b>: React, HTML5, CSS3, JSX</li>
+            <li><b>Backend</b>: Node.js, Python, Java, Bash</li>
             <li><b>Data Management</b>: SQL Server, MySQL, NAV</li>
             <li><b>Git & GitHub</b></li>
-            <li><b>Frameworks</b>: FastAPI, </li>
+            <li><b>Frameworks</b>: FastAPI, React, EmailJS, AOS, React Router, Bootstrap</li>
             <li><b>Additional knowledge in</b>: Matlab, R</li>
             <li>Useful tools: Docker, Postman, Netlify, FastAPI, Google Cloud</li>
           </ul>
