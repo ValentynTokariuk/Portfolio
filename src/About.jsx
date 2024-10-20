@@ -18,7 +18,7 @@ const About = () => {
     <img src={photo1} alt="My childhood photo" class="about-photo" />
     <div class="about-text" data-aos="fade-right">
       <h2>Early Life</h2>
-      <p>I was born in Chernivtsi, Ukraine, a vibrant city that set the stage for my interests and early development. My childhood was filled with a mix of academic and extracurricular activities—I went to school early and spent my high school years exploring a range of passions. I attended classes in dancing, piano, and guitar, as well as participated in sports like football, volleyball, basketball, and table tennis. My favorite pastime, however, was playing billiards with my father, which remains one of my cherished memories.</p>
+      <p>I was born in Chernivtsi, Ukraine, a vibrant city that set the stage for my interests and early development. My childhood was filled with a mix of academic and extracurricular activities—I went to school early and spent my high school years exploring a range of passions. I attended classes in dancing, piano, and guitar, as well as participated in all of the kinds of outdoor sports. My favorite pastime, however, was playing billiards with my father, which remains one of my cherished memories.</p>
     </div>
   </div>
 
