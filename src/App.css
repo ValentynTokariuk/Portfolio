@@ -694,6 +694,8 @@ p {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
+  animation: fadeIn 1s ease-in-out forwards; /* Apply the fade-in animation */
+
 }
 
 .about-photo:hover {
