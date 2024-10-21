@@ -210,7 +210,6 @@ nav {
 }
 
 
-/* Delays for each list item */
 .skills li:nth-child(1) { animation-delay: 0.2s; }
 .skills li:nth-child(2) { animation-delay: 0.4s; }
 .skills li:nth-child(3) { animation-delay: 0.6s; }
@@ -218,7 +217,7 @@ nav {
 .skills li:nth-child(5) { animation-delay: 1s; }
 .skills li:nth-child(6) { animation-delay: 1.2s; }
 
-/* Education and Work Experience styling */
+
 .education, .experience {
   margin-top: 50px;
   padding: 40px 20px;
@@ -369,8 +368,8 @@ nav {
 /* Image container to maintain aspect ratio */
 .image-container {
   position: relative;
-  width: 100%; /* Full width of the card */
-  padding-top: 46.25%; /* 16:9 aspect ratio, adjust if needed for your images */
+  width: 100%; 
+  padding-top: 46.25%; 
   margin-bottom: 20px;
   overflow: hidden; /* Ensures the image doesn't overflow outside the container */
 }

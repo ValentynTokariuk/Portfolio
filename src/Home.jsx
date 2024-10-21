@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import CV from './assets/IT_ValentynTokariuk.pdf';
 
 const Home = () => {
   useEffect(() => {
@@ -16,6 +16,7 @@ const Home = () => {
             
             <a href="/projects" className="cta-btn" data-aos="fade-right">View My Projects</a>
             <a href="/contact" className="cta-btn" data-aos="fade-left">Contact Me</a>
+            <a href={CV} className = "cta-btn" data-aos="fade-right" >Classic CV</a>
         </div>
         <div className="skills" data-aos="fade-up">
           <h2>Technologies I Work With</h2>
@@ -25,7 +26,7 @@ const Home = () => {
             <li><b>Data Management</b>: SQL Server, MySQL, NAV</li>
             <li><b>Git & GitHub</b></li>
             <li><b>Frameworks</b>: FastAPI, React, EmailJS, AOS, React Router, Bootstrap</li>
-            <li><b>Additional knowledge in</b>: Matlab, R</li>
+            <li><b>Additional knowledge in</b>: Matlab, R, Linux OS</li>
             <li>Useful tools: Docker, Postman, Netlify, FastAPI, Google Cloud</li>
           </ul>
           <h2>Languages I speak</h2>
@@ -72,26 +73,10 @@ const Home = () => {
           <h2>Work Experience</h2>
           <ul className="experience-list">
             <li>
-            <h3>Construction site worker</h3>
-              <p>In 9th grade it seemed like a good way of getting extra money.<br /></p>
-              <p className="right-align large-margin"><b>2019</b></p>
-              <p className="right-align"><i>Chernivtsi (Ukraine)</i></p>
-            </li>
-            <li>
-            <h3>Store Associate</h3>
-              <p>The next part-time job after classes. Helped me develop the basic problem solving skills, gave the oportunity to work in a team and communicate with the clients, especially in a new country.<br /></p>
-              <p className="right-align large-margin"><b>2020-2022</b></p>
-              <p className="right-align"><i>"Silpo" - Chernivtsi (Ukraine) / "Lidl" - Szczecin (Poland)</i></p>
-            </li>
-            <li>
-              <h3>Waiter / Bartender</h3>
-              <p>Gained interpersonal and service management skills while working in hospitality. 
-                Got a lot of knowledge of preparing beverages, mixing cocktails and managing the bar correctly.
-                Learned all of the aspects of serving the clients on a highest level and making sure their dine in the
-                restaurant would be perfect.
-                Learned how to manage the working space and make it as efficient as possible. Drastically improved every language I know.</p>
-              <p className='right-align large-margin'><b>2019 - 2020 / 2024</b></p>
-              <p className="right-align"><i>"Premier Hall" - Storozhynets' (Ukraine) / "Sphinx" - Szczecin (Poland) / "The Brew" (Malta), </i></p>
+              <h3>Website Development</h3>
+              <p>Developed a personal portfolio website showcasing my projects, skills, and experiences. This project involved creating a visually appealing and responsive design using modern web technologies such as HTML, React, CSS, JSX, ViteJS, NodeJS, EmailJS and development via Netlify. The development process included building reusable components, implementing animations, managing state, and deploying the site using Netlify for seamless delivery. Focused on accessibility, mobile responsiveness, and providing a smooth user experience.</p>
+              <p className='right-align large-margin'><b>2024</b></p>
+              <p className='right-align'><i>Freelance</i></p>
             </li>
             <li>
               <h3>Master Data Specialist - Ossur</h3>
@@ -100,7 +85,9 @@ const Home = () => {
                 customers and vendors data.
                 Got to experience and be a part of a lot of 
                 processes inside of the corporation. Worked with Microsoft Navision, Basware, SQL Server,
-                Microsoft Office. </p>
+                Microsoft Office.
+                Developed impactful solutions for managing the customers and vendors data in CRM and SQL systems.
+                Worked with large datasets, focused on customer data and analytics </p>
               <p className='right-align large-margin'><b>2023</b></p>
               <p className='right-align'><i>Szczecin</i></p>
             </li>
@@ -115,6 +102,31 @@ const Home = () => {
                 their stay.</p>
               <p className='right-align large-margin'><b>2024</b></p>
               <p className='right-align'><i>"Simon Mamo REA" (Malta)</i></p>
+            </li>
+            <li>
+              <h3>Waiter / Bartender</h3>
+              <p>Gained interpersonal and service management skills while working in hospitality. 
+                Got a lot of knowledge of preparing beverages, mixing cocktails and managing the bar correctly.
+                Learned all of the aspects of serving the clients on a highest level and making sure their dine in the
+                restaurant would be perfect.
+                Learned how to manage the working space and make it as efficient as possible. Drastically improved every language I know.</p>
+              <p className='right-align large-margin'><b>2019 - 2020 / 2024</b></p>
+              <p className="right-align"><i>"Premier Hall" - Storozhynets' (Ukraine) / "Sphinx" - Szczecin (Poland) / "The Brew" (Malta), </i></p>
+            </li>
+            <li>
+              <h3>Store Associate</h3>
+              <p>The next part-time job after classes. Helped me develop the basic problem solving skills, gave the oportunity to work in a team and communicate with the clients, especially in a new country.<br /></p>
+              <p className="right-align large-margin"><b>2020-2022</b></p>
+              <p className="right-align"><i>"Silpo" - Chernivtsi (Ukraine) / "Lidl" - Szczecin (Poland)</i></p>
+            </li>
+            
+            
+            
+            <li>
+              <h3>Construction site worker</h3>
+              <p>In 9th grade it seemed like a good way of getting extra money.<br /></p>
+              <p className="right-align large-margin"><b>2019</b></p>
+              <p className="right-align"><i>Chernivtsi (Ukraine)</i></p>
             </li>
           </ul>
         </div>
