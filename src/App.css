@@ -575,18 +575,33 @@ p {
     justify-content: center; /* Center align items on small screens */
     gap: 10px; /* Adjust spacing for smaller screens */
   }
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add smooth transition for fading and sliding out */
+  }
+  
+  .nav-hidden {
+    opacity: 0; /* Set opacity to 0 to make it fade out */
+    transform: translateY(-20px); /* Slightly slide it up when hiding */
+    pointer-events: none; /* Disable pointer events so it doesn't interact while hidden */
+  }
+  
+  /* Button-like Nav when Scrolling */
   .nav-button {
     position: fixed;
     top: 0;
     left: 50%;
-    transform: translateY(-50%);
+    transform: translateX(-50%);
     background-color: #321e1e;
     color: #fff;
     padding: 10px 20px;
     border-radius: 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    transition: all 1s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for navbar */
   }
 }
 
