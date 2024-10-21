@@ -138,7 +138,7 @@ nav {
   animation: slideInFromRight 3s ease-in-out;
 }
 .hero p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-bottom: 20px;
   animation: slideInFromLeft 3s ease-in-out;
 }
