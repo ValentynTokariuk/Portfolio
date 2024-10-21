@@ -111,9 +111,13 @@ nav {
   text-align: center;
   padding: 50px 20px;
   background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231031/pngtree-deep-charcoal-texture-crispy-paper-with-a-dark-edgy-vibe-image_13705571.png');
+  background-size: cover; /* Make the background cover the entire section */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the background image */
   color: white;
   animation: fadeIn 2s ease-in-out;
 }
+
 
 /* Fade-in animation for hero section */
 @keyframes fadeIn {
@@ -701,18 +705,27 @@ p {
     width: 95%; /* Make it take almost the full width of smaller screens */
     padding: 10px; /* Reduce padding on small screens for better fit */
   }
+  h1{
+    font-size: 2.2rem;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 1rem;
+  }
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 20px;
     animation: slideInFromLeft 3s ease-in-out;
   }
   .hero h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
     animation: slideInFromRight 3s ease-in-out;
   }
   .hero p {
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin-bottom: 20px;
     animation: slideInFromLeft 3s ease-in-out;
   }
