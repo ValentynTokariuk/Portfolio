@@ -16,7 +16,7 @@ const Home = () => {
             <p>Welcome to my not-so-boring version of a CV</p>
             
             <a href="/projects" className="cta-btn" data-aos="fade-right">View My Projects</a>
-            <a href="/contact" className="cta-btn" data-aos="fade-left">Contact Me</a>
+            
             <a href={CV} className = "cta-btn" data-aos="fade-right" >Classic CV</a>
         </div>
         <div className="skills" data-aos="fade-up">
@@ -30,6 +30,27 @@ const Home = () => {
             <li><b>Additional knowledge in</b>: Matlab, R, Linux OS</li>
             <li>Useful tools: Docker, Postman, Netlify, FastAPI, Google Cloud</li>
           </ul>
+        </div>
+        <div className="my-services-section" data-aos="fade-up">
+          <div className="my-services">
+            <h2>What I offer</h2>
+            <ul>
+              <li>Frontend Development</li>
+              <li>Data Management</li>
+              <li>Customer Support</li>
+              <li>IT Support</li>
+              <li>System Administration</li>
+              <li>Backend Development</li>
+              <li>Webpage Design</li>
+              <li>Cloud Computing</li>
+              <li>DevOps</li>
+              <li>UI/UX Design</li>
+              <li>Mobile Development</li>
+            </ul>
+            <a href="/contact" className="cta-btn" data-aos="fade-left">Contact Me</a>
+          </div>
+        </div>
+        <div className="skills" data-aos="fade-up">  
           <h2>Languages I speak</h2>
           <ul className="languages">
             <li>English - fluent</li>
@@ -50,6 +71,8 @@ const Home = () => {
           </ul>
           
         </div>
+       
+        
         {/* Education Section */}
         <div className="education" data-aos="fade-up">
           <h2>Education</h2>
