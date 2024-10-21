@@ -663,6 +663,21 @@ p {
     width: 95%; /* Make it take almost the full width of smaller screens */
     padding: 10px; /* Reduce padding on small screens for better fit */
   }
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 3s ease-in-out;
+  }
+  .hero h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    animation: slideInFromRight 3s ease-in-out;
+  }
+  .hero p {
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 3s ease-in-out;
+  }
 }
 
 /* General reset */
