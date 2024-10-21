@@ -132,6 +132,16 @@ nav {
   margin-bottom: 20px;
   animation: slideInFromLeft 3s ease-in-out;
 }
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  animation: slideInFromRight 3s ease-in-out;
+}
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  animation: slideInFromLeft 3s ease-in-out;
+}
 
 /* Slide-in animation for heading */
 @keyframes slideInFromLeft {
@@ -145,11 +155,6 @@ nav {
   }
 }
 
-.hero p {
-  font-size: 1.25rem;
-  margin-bottom: 20px;
-  animation: slideInFromRight 1.5s ease-in-out;
-}
 
 /* Slide-in animation for paragraph */
 @keyframes slideInFromRight {

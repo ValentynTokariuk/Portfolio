@@ -12,6 +12,7 @@ const Home = () => {
     <section id="home">
         <div className="hero" data-aos="fade-up">
             <h1>Hi, I'm Valentyn Tokariuk</h1>
+            <h2>Beginning Web Developer and Data Management Spacialist</h2>
             <p>Welcome to my not-so-boring version of a CV</p>
             
             <a href="/projects" className="cta-btn" data-aos="fade-right">View My Projects</a>
