@@ -40,7 +40,6 @@ const Home = () => {
               <li>Customer Support</li>
               <li>IT Support</li>
               <li>System Administration</li>
-              <li>Backend Development</li>
               <li>Webpage Design</li>
               <li>Cloud Computing</li>
               <li>DevOps</li>
