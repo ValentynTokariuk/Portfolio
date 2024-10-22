@@ -67,10 +67,9 @@ nav {
   gap: 20px;
   padding: 10px 0;
   transition: all 0.3s ease;
-  max-width: 100%; /* Ensures the navbar doesn’t extend beyond screen width */
-  overflow-x: hidden; /* Prevents horizontal overflow */
 }
 
+/* Button-like Nav when Scrolling */
 .nav-button {
   position: fixed;
   top: 0;
@@ -87,10 +86,7 @@ nav {
 
 .nav-button a {
   color: white;
-  text-decoration: none;
-  padding: 5px 10px;
 }
-
 
 .navbar, .cta-btn {
   font-family: 'Montserrat', sans-serif; /* A third font for special elements */
