@@ -591,7 +591,7 @@ p {
     transform: translateX(-50%);
     background-color: #321e1e;
     color: #fff;
-    padding: 8px 15px;  /* Reduced padding for a slimmer button */
+    padding: 10px 15px;  /* Reduced padding for a slimmer button */
     border-radius: 30px;  /* Adjusted to match the slimmer button size */
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);  /* Reduced shadow for a less bulky look */
     z-index: 1000;
