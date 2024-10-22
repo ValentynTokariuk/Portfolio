@@ -575,6 +575,34 @@ p {
     justify-content: center; /* Center align items on small screens */
     gap: 10px; /* Adjust spacing for smaller screens */
   }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;  /* Reduce gap for narrower spacing */
+    padding: 5px 0;  /* Reduce padding for a more compact look */
+    transition: all 0.3s ease;
+  }
+
+  /* Mobile Button-like Nav when Scrolling */
+  .nav-button {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #321e1e;
+    color: #fff;
+    padding: 8px 15px;  /* Reduced padding for a slimmer button */
+    border-radius: 30px;  /* Adjusted to match the slimmer button size */
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);  /* Reduced shadow for a less bulky look */
+    z-index: 1000;
+    transition: all 0.3s ease;
+  }
+
+  .nav-button a {
+    color: white;
+    font-size: 0.9rem;  /* Slightly smaller font size for mobile screens */
+  }
+
 }
 
 /* Contact section styles */
